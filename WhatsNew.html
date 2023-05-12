@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fzip Family Tree</title>
+<meta name="description" content="Fzip Family Tree Software, is a windows Fzip genealogy package with EXTREMELY fast GEDCOM import and export. It is easy to use and can maintain family tree information, report, perform fast sophisticated searching of the data, import and export data. ">
+<meta name="keywords" content="Fzip family tree genealogy software database history ancestor descendant records fast GEDCOM free">
+</head>
+<body LEFTMARGIN = 15 background="Gray_Textured.gif">
+<A NAME="Top"></A>
+<h1><img src="WELCOME2.GIF" width="64" height="64" align="top">&nbsp;Fzip Family Tree</h1>
+<h2>What's New</h2>
+<hr>
+Abbreviation - Chg for Change, New for New functionality, Fix  for Correction <br>
+
+<P><B>Version 3.3.7 &nbsp&nbsp 27 Apr 2023 :-</B><br>
+1. Fix - If Show Baptism if Birth is empty (Options > Show Baptism ...) was set then it did not work in many cases, now corrected to work in Person Summary, Hourglass, Table Views and FindList<br>
+2. New - Connect Father/Mother - where Father/Mother had a relationship this produced an error, now allows it<br>
+3. Fix - Hint - when cursor moved over Ancestor field that previously was used as a hint but now there is no information it displayed the previous hint, now does not display<br>
+</P>
+
+<P><B>Version 3.3.6 &nbsp&nbsp 5 Apr 2023 :-</B><br>
+1. Fix/Chg - Delete Person, Delete Relationship functions - incorrectly functioned when there were children - now fixed and enhanced to work in wider range of circumstances<br>
+&nbsp&nbsp Problem would have been fixed by Fix Links function in Tools menu<br>
+2. Chg - Delete Person and Relationship function removed<br>
+</P>
+
+<P><B>Version 3.3.5 &nbsp&nbsp 31 Mar 2023 :-</B><br>
+1. Chg - Internet Search - Increase number of web sites displayed to 18 from 11<br>
+2. Chg - Internet Search - Add error checks if Internet Search template file is already open<br>
+3. Fix - Check Links/Fix Links - to correctly report error details for "Pers missing from Child Relationship" and to fix it, minor format changes to Links reporting<br>
+</P>
+
+<P><B>Version 3.3.4 &nbsp&nbsp 27 Jan 2023 :-</B><br>
+1. Chg - Update to Hungarian Translation - Thank you Mátyás Naszódi<br>
+2. Fix/Chg - GEDCOM Export - In rare cases Address may not be exported, fixed. Address lines now up to 253 characters.<br>
+3. Fix - Find - Sex searching only worked where M - male, F - female and ? - unknown sex. Now correctly translates input sex on Find screen.<br>
+4. Chg - Check Docs - enhancements to check process<br>
+</P>
+
+<P><B>Version 3.3.3 &nbsp&nbsp 17 Dec 2022 :-</B><br>
+1. Chg - Language - improved handling when Language file format not as expected<br>
+2. New - Language - Hungarian Translation - Thank you Matyas Naszodi<br>
+3. Chg - Update Language file for Italian<br>
+4. Chg - Privacy - Year at which Privacy starts defaults to 1922 but any change is remembered across different runs of program<br>
+5. Chg - GEDCOM Export - length of line defaults to 72 but any change is remembered across different runs of program<br>
+6. New - Edit/View - additional hints added to some fields<br>
+</P>
+
+<P><B>Version 3.3.2 &nbsp&nbsp 7 Dec 2022 :-</B><br>
+1. New - Main - Person Hints displayed if "Show Person Hints" set in Options (defaults to on)<br>
+2. New - Options - new Options to "Show Person Hints" and change Font details of hints<br>
+3. Chg - Potential Problems report - when write to File will always add Person number<br>
+4. Chg - Update to Italian language<br>
+5. Language file - new message 728<br>
+</P>
+
+<P><B>Version 3.3.1 &nbsp&nbsp 30 Nov 2022 :-</B><br>
+1. Fix - Internet Search - update template for 'Family Search'<br>
+2. Chg - Update Language file for Italian - thank you Ercole Di Matteo<br>
+3. Chg - Change file save to remove problems if there are timing issues with creating .BAK file<br>
+</P>
+
+<P><B>Version 3.3 &nbsp&nbsp 21 Nov 2022 :-</B><br>
+1. New - Internet Search - New function to build internet searches to search genealogy websites.<br>
+ &nbsp&nbsp&nbsp Invoked from Search menu, or from toolbar by pressing <img src="HelpFindInternetIcon.bmp"><br>
+2. New - Potential Problems Report - improvements<br>
+&nbsp&nbsp a. New - Improved ordering of report (by Error Type or Person Name), formatting, report output is always copied to FindList<br>
+&nbsp&nbsp b. New - check of "Last Name is all upper case"<br>
+3. New - New Backup function which makes a copy of the current file and adds date and time stamp to filename<br>
+4. Chg - Main screen - Remove ReadOnly option from File Open, File Import, Tools CSV Compare<br>
+5. Chg - About - Add Filename to About screen<br>
+6. Chg - Help - updates to improve content<br>
+7. Chg - Improve formatting of Select relationship and Marriage Order screens<br>
+8. Chg - Improve heading formatting of many screens<br>
+9. Language file - new messages 716 to 727, Potential Problems Report 23, change to 398<br>
+</P>
+
+<P><B>Version 3.2.5 &nbsp&nbsp 17 Aug 2022 :-</B><br>
+1. New - Main screen - Back and Forward buttons now only active if they can be used, and button images improved.<br>
+2. Fix - Find - Find using selection by Spouse details has not worked correctly since v3.2.1 when LDS searching was fixed, now corrected<br>
+3. Fix - GEDCOM Import - If there were no Family records but families were identified for an Individual, then Import would fail, now displays error.<br>
+4. New - Web Page Generation - now displays number of people for whom pages were generated.<br>
+5. Fix - Web Page Generation - Find not always selecting correct people - fixed.<br>
+6. New - Kinship Report - report Degree of relationship<br>
+7. Chg - Kinship Report - change lineage numbering to start from zero so that Degree numbering aligns<br>
+8. Fix - Find - selecting Bookmark list when no bookmarks would crash - fixed<br>
+9. New - Potential Problems Report - new checks of  "Person has relationship/marriage but there is no partner" and "Person has no name"<br>
+</P>
+
+<P><B>Version 3.2.4 &nbsp&nbsp 30 Jul 2022 :-</B><br>
+1. New - Main screen - if a Child has any relationship but <b>no children</b>, this is now identified with <img src="arrCircleRed3.bmp">, previously it was identified by <img src="HelparrLtxColor.bmp"> <br>
+2. Fix - Add, Connect - if have used "Swap Person and Spouse" on one of the people,<br>
+&nbsp;&nbsp;&nbsp; then Disconnect, Add/Connect did not recognise that there was an existing relationship that could be added/connected to. Now it does.<br>
+3. New - Find - add option to select Bookmarks to be copied to FindList. This can simplify Connecting people.<br>
+4. Fix - GEDCOM Import - if date changed on input then old version reported date changed in the internal format, now in external format<br>
+5. New - GEDCOM Export - now exports Genealogy file name, output filename and date time file created<br>
+6. Chg - Help - updates to improve content<br>
+</P>
+
+<P><B>Version 3.2.3 &nbsp&nbsp 18 Jul 2022 :-</B><br>
+1. Fix - Main screen - sometimes for a single person, the Ancestors of the spouse fill with the Spouse Ancestors of the first sibling<br>
+2. Chg - Mass Change functions - print old and new values on report, set filechanged if non zero changes<br>
+3. Chg - Italian - Update for extra phrases in V3.2.2<br>
+4. Chg - Help - reorganisation of help to improve access with use of Contents, extra Help buttons, some updates to help (e.g Source)<br>
+</P>
+
+<P><B>Version 3.2.2 &nbsp&nbsp 25 Jun 2022 :-</B><br>
+1a. New - Relatives List Report - new option to display Degree of Relationship (with number of levels of ancestors and number of levels of descendants)<br>
+1b. New - Relatives List Report - now creates a FindList, so can look at Degree of relationship in FindList after having run report<br>
+2. New - FindList - displays Relationship Report output with Degree of relationship plus ancestor and descend levels, allows export to CSV of new data<br>
+3. Chg - GEDCOM Import - allowed input of person without Tag SEX; now sets Sex to Unknown.<br>
+4. Chg - GEDCOM Import - for a person if a second name is encountered (such as for 'aka') this name is moved to the Alias field<br>
+5. Chg - GEDCOM Export - now exports Name of program, version, codepage<br>
+6. Fix - Range Check error - fix for Main display, Display of Person, FindList - caused by lack of valid Sex<br>
+7. Chg - Checkfile, FixFile - checks for blank Sex and changes to Unknown<br>
+8. Fix - FileFix - now displays Relationship number deleted when there are no partners or children<br>
+9. Language file - new messages 713, 714, 715, GEDCOM Message 19<br>
+10a. Help - eg. updates on GEDCOM Tags, in header (NAME, VERS, SUBM, COMMent on Codepage) and for individual RESN<br>
+10b. Help - updates - discussion on Disconnect and Connect Children<br>
+</P>
+
+<P><B>Version 3.2.1 &nbsp&nbsp 9 May 2022 :-</B><br>
+1. Chg - Search - move Person Notes field name to be after REFN<br>
+2. Fix - LDS - Search and LDS Report corrected to find data<br>
+3. Chg - Pedigree Report - decrease vertical spacing a little to fit more easily on 'Letter' paper<br>
+4. Chg - Places - now increased to 120 characters for editing, could previously import up to 120<br>
+5. New - Show Last TXT File - will show last GEDCOM file produced.<br>
+6. Fix - FindList - FindList was not updated if first time running program and Cancel used for Search and Reports<br>
+7. Chg - Report - Options # added to Report Privacy selection. This suppresses lines containing a #, can be turned off.<br>
+&nbsp;&nbsp;&nbsp; This functionality already existed as part of Options, but is now easier to select when producing a report.<br>
+8. Fix - View/Edit - suppress display of source of relationship if no relationship<br>
+9. Help - various small improvements
+</P>
+
+<P><B>Version 3.2 &nbsp&nbsp 13 Sep 2021 :-</B><br>
+1. New data Fields - Alias and Nickname<br>
+These are two new fields associated with a Person of Alias and Nickname. They are used to have alternate names for people.<br>
+In Fzip the difference between the two is that Alias is output along with Name, REFN, Date of Birth etc, but Nickname is either not output or needs to be selected for output.<br>
+This is because Nickname may contain information that is sensitive.<br>
+Changes<br>
+&nbsp;&nbsp;&nbsp; a. View/Edit - two new fields<br>
+&nbsp;&nbsp;&nbsp; b. Report - Alias output when Level of Detail = 3,4,5<br>
+&nbsp;&nbsp;&nbsp; c. Find/Search - when search using First Name or Last Name a search will also be done on Alias and NickName<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - additional search fields of Alias and Nick Name<br> 
+&nbsp;&nbsp;&nbsp; d. GEDCOM Export - Alias is output if present and Nickname if OutputNickName is selected. These are output as Level 1 GEDCOM tags (1 ALIA and 1NICK).<br>
+&nbsp;&nbsp;&nbsp; e. GEDCOM Import - Alias and Nickname are imported from Level 1 tags<br>
+&nbsp;&nbsp;&nbsp; f.&nbsp; CSV Export - Alias is exported and if Output Nickname is set then Nickname is output <br>
+&nbsp;&nbsp;&nbsp; g. CSV Compare - Compare is unchanged but, it can only validly compare CSV exports with version 3.2 and above, as previous version s will not have the two new fields in the CSV export.<br>
+<br>
+
+<P><B>Version 3.1 &nbsp&nbsp 21 Jun 2021 :-</B><br>
+1. Chg - Major updates to Non English translations for all languages except Italian<br>
+2. Chg - Minor screen formatting changes<br>
+3. Chg - Change Print Options to be able to suppress parts of heading<br>
+4. Fix - Report - when Print before a Print Preview the program would produce an error - fixed<br>
+5. New - FzipLang changed with new Check Report and changes to make translations easier<br>
+</p>
+<P><B>Version 3.0 &nbsp&nbsp 30 Nov 2020 :-</B><br>
+1. New - Same Sex Support<br>
+&nbsp;&nbsp;&nbsp; Support for Same Sex Relationships and Marriage. - see Same Sex in help for more information - changes to many parts of program<br>
+&nbsp;&nbsp;&nbsp; As a result of change the Sex/Gender of a person can now be changed at any time.<br>
+2. Main Screen functions<br>
+&nbsp;&nbsp;&nbsp;&nbsp;a. New - improved formatting of both views of main screen<br>
+&nbsp;&nbsp;&nbsp;&nbsp;b. Chg&nbsp; - name of "Family View" changed to "Table View"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;c. New - Hourglass View can optionally show 6 generations of people (now 4,5 and 6)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;d. New - Table View can optionally show 4 generations of people (increase from 2.5)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;e. Chg&nbsp; - switch between views now done using View menu or click on View name<br>
+&nbsp;&nbsp;&nbsp;&nbsp;f.&nbsp; New - clicking on <img src="HelparrLtxColor.bmp">  or <img src="HelparrRtxColor.bmp"> in the Hourglass and Table view will move the focus towards that person<br>
+&nbsp;&nbsp;&nbsp;&nbsp;g. New - when click on Child, the Parent and Spouse are highlighted and the Spouse Ancestors are updated<br>
+&nbsp;&nbsp;&nbsp;&nbsp;h. New - can choose additional larger font sizes of 13,14,15 point for main screen text<br>
+&nbsp;&nbsp;&nbsp;&nbsp;i.&nbsp; New - prevents Add, Connect of person if cannot see result of action<br>
+&nbsp;&nbsp;&nbsp;&nbsp;j. &nbsp;New - improve screen display when return from View/Edit/Add/Connect/Delete/Disconnect/Back/Open<br>
+&nbsp;&nbsp;&nbsp;&nbsp;k. Chg - some changes to menus and short cut keys<br>
+
+3. Print Preview functions<br>
+&nbsp;&nbsp;&nbsp;&nbsp;a. Chg&nbsp; - improve positioning of Print Preview when using more than once in a run<br>
+&nbsp;&nbsp;&nbsp;&nbsp;b. New -  automatic resize of page being previewed for PageWidth and Page Height options<br>
+&nbsp;&nbsp;&nbsp;&nbsp;c. New - add zoom percentages of 300% and 400%<br>
+&nbsp;&nbsp;&nbsp;&nbsp;d. New - show selected Printer Name in Print Preview<br>
+&nbsp;&nbsp;&nbsp;&nbsp;e. Fix&nbsp;&nbsp;  - Print Preview of very large reports ( more than approx 7000 pages) would not complete; fixed<br>
+
+4. Reports<br>
+&nbsp;&nbsp;&nbsp;&nbsp;a. New - Fonts - can change Heading and Footer fonts including font style using PageSetup and also Body Font style<br>
+&nbsp;&nbsp;&nbsp;&nbsp;b. New - Formatting - improved formatting of many reports<br>
+&nbsp;&nbsp;&nbsp;&nbsp;c. New - Source - Source now included on reports  when Level of Detail = 5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;d. New - Story -  age of living person is now included, comparing date of birth with date of producing report<br>
+&nbsp;&nbsp;&nbsp;&nbsp;e. Chg&nbsp; - Rename of Date Check Report to Potential Problems Report<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;f.&nbsp; New - Potential Problems Report - additional checks of "Sex unknown" and "Person is in same sex relationship"<br>
+5. Web Page generation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Has been redeveloped. Can now produce useful web pages for very large family trees (in excess of 250,000 people).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;There is an extra Alphabetic Index page to assist navigation and the other pages are automatically split into multiple files to manage file sizes.<br>
+6. View/Edit<br>
+&nbsp;&nbsp;&nbsp;&nbsp;a. New - Document Integration ; to view external documents, video etc. related to a person. See Document Integration<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;b. New - right click on mouse is the same as clicking OK button. Can also use right click in Main screen to edit current person.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;c. New - View form is now resizeable so can see more of the source fields<br>
+7. New - Search, and Marriage Report - new sort order for Marriages of, First Name<br>
+8. Chg - Page Setup - improved definition of left, right, top, bottom<br>
+9. New - new function "Show Last TXT file" will display last text file produced; accessable from Tools menu<br>
+&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp; Text files contain summaries of some processing. They are produced by; <br>
+&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp; GEDCOM Import, Check/Fix File, Check/Fix Links, Check Pictures, Mass Change functions, Assign REFN, CSV Export and Compare (P file only)<br>
+10.  Check/Fix File/Links/Pictures/Mass Change Functions<br>
+&nbsp;&nbsp;&nbsp;&nbsp;a. Chg&nbsp; - change to output file names to; myfamilyfile_date_time_action.txt<br>
+&nbsp;&nbsp;&nbsp;&nbsp;b. Chg&nbsp; - Import trace file directory is changed to be in 'MyDocuments' directory if gen file is not known and directory of gen file if known<br>
+&nbsp;&nbsp;&nbsp;&nbsp;c. New - improvements to Mass Change Place/Source/Family Name/Assign REFN , message and output file of changes<br>
+&nbsp;&nbsp;&nbsp;&nbsp;d. New - Assign REFN - now selects people using Find to identify those to have the REFN assigned<br>
+11. Language Customisation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;a. Messages - changes to messages - see Language Customisation in help<br>
+&nbsp;&nbsp;&nbsp;&nbsp;b. Update to French translation<br>
+<br>
+Note, while the program has been upgraded, the same data structure is used as the original, so that Version 1, 2 and 3 programs can all be used on the same data file, <b>except</b> problems will occur using Version 1 and 2 when Same Sex relationships are used. (Actually if Male is in female field or the reverse.)
+</p>
+
+
+<P><B>Version 2.2 &nbsp&nbsp 13 Sep 2020 :-</B><br>
+1. Chg - Faster startup of program<br>
+2. Fix - Add/Edit/Connect/Delete - internal fields may not have been set may result in errors - fixed<br>
+3. Check Database Functions - accessed from Tools menu<br>
+&nbsp;&nbsp;&nbsp;&nbsp;a. New - Check Data function - additional check added for orphan records<br>
+&nbsp;&nbsp;&nbsp;&nbsp;b. New - Fix Data function - corrects all problems detected by Check Data, record sizes and orphan records<br>
+&nbsp;&nbsp;&nbsp;&nbsp;c. New - Check Links function - rewritten and now more understandable and complete<br>
+&nbsp;&nbsp;&nbsp;&nbsp;d. New - Fix Links function - rewritten, corrects all problems found by Check Links<br>
+&nbsp;&nbsp;&nbsp;&nbsp;e. New - Check File and Check Pictures - output filenames standardised to have date and time in them<br>
+&nbsp;&nbsp;&nbsp;&nbsp;f.&nbsp;  Chg - Check File, Links, Pics - file now written to same directory as .GEN file<br>
+4. New - GEDCOM Import - output filename showing result of Import standardised to have date and time<br>
+5. New -  Find By Number - Function added to, with ability to Find Relationship by entering / then number e.g. /1487, in addition to existing Find Person<br>
+6. Fix - Export FindList - when a Summary was exported it displayed an error and Export was incomplete - fixed<br>
+7. Fix - FindList - when viewing DateCheck Report results in FindList the FindList format was often incorrect<br>
+8. Fix - FindList - when viewing DateCheck Report results in FindList the list was truncated if did not step through each page of report in Print Preview - fixed<br>
+9. Fix - Find - Find screen sometimes did not reset to Person selection when click on Person radio button - fixed<br>
+10. Fix - Find - First drop down for condition could be overwritten - fixed<br>
+11. Chg - Report - Pedigree Report - improve formatting<br>
+12. Chg - Report - Descendant and Ancestor Reports - improve formatting<br>
+13. Fix - Report - Descendant, Family Group, Ancestor, Ancestor Ahnentafel - fix truncation of parts of characters in various reports <br>
+14. Fix - Report - Ancestor Story - in some instances when no spouse of a person report did not compete - fixed<br>
+15. New - Report - Descendant, Ancestor Story - add date of death for children<br>
+16. Chg - Report - Relatives List - improve readability of group headings<br>
+</p>
+
+
+<P><B>Version 2.1.13 &nbsp&nbsp 1 Jul 2020 :-</B><br>
+1. New - Export - Add option to output RESN tag if private against INDI and FAM and do not blank information.<br>
+2. Chg - Update to Italian.lng for messages up to 651.<br>
+</p>
+
+
+<P><B>Version 2.1.12 &nbsp&nbsp 21 Jun 2020 :-</B><br>
+1. Fix - Export - Date of producing GEDCOM file (in HEAD)  was produced in local language not overridden by options.<br>
+2. New - Menu - Add Menu Option under Help to show License information.<br>
+</p>
+
+<P><B>Version 2.1.11 &nbsp&nbsp 30 Mar 2020 :-</B><br>
+1. Chg - Main - In the Person Description remove the comma(,) in the person's name when the name order is Last Name and First Name.<br>
+&nbsp&nbsp&nbsp (There was no comma when First name  and Last Name order.)<br>
+2. Chg -  Find - When no records are selected, redisplay selection screen to change entered parameters.<br>
+3. Chg - Italian language	- Update to Italian language file for messages for Find Person using number.<br>
+</p>
+
+<P><B>Version 2.1.10 &nbsp&nbsp 20 Mar 2020 :-</B><br>
+1. Fix - Connect - when there is an error such as 'Sex of selected person must be opposite to current person' the program does not completely reposition to original person.<br>
+&nbsp&nbsp&nbsp In conjunction with item 2 (below), this may in some cases result in database corruption if another Connect or Delete is immediately run .<br>
+2. Fix -  Menu Options for Delete and Connect - possible functions to run may not be correct  in some cases. Can happen at the same time as item 1 above.<br>
+3. Chg - Edit screen - Increase display width of REFN.<br>
+</p>
+
+<P><B>Version 2.1.9 &nbsp&nbsp 8 Mar 2020 :-</B><br>
+1. New - Find using Person Number - new function to Find using Person Number, accessable from menu or  <img src="Hashbutton.bmp"> button next to EasyFind button<br>
+&nbsp&nbsp&nbsp Two new messages 647 and 648<br>
+2. Fix - FindList - When cancel in FindList the Main Screen is pointing to person from FindList  but showing original person - fixed<br>
+3. Fix - Main - When open in Hourglass and initial person has no children then the list of Spouses and Siblings Grid is in incorrect position - fixed<br>
+4. New - GEDCOM Export - Message displayed on screen of number of people exported and file name.<br>
+5. Fix - Messages - minor changes to message 352,356,357; spelling<br> 
+6. Fix - GEDCOM Import - If Rel Notes are exactly 4096 chars in length or Pers Notes are exactly 30000 in length then message displays that identifies that they are too big, they are not - fixed<br>
+7. Chg - Check File - changes to the output and what is checked.<br>
+</p>
+
+<P><B>Version 2.1.8 &nbsp&nbsp 18 Feb 2020 :-</B><br>
+1. Fix - Connect - Connect Spouse Existing can sometimes result in Relationship text being overwritten by another relationship - fixed<br>
+2. New - Check Links - Many Improvements to Tool to check for file consistencies, including more detail on data with problems.<br>
+3. New - Fix Links - New function to fix some file inconsistencies.<br>
+4. New - Export CSV - Show filename exported to.<br>
+5. Fix - Export CSV - program changed non printing characters to single quote except for 1st char of Pers and RelNotes. Now does all. <br>
+&nbsp&nbsp&nbsp Resulted in exports where first char was a carriage return being unreadable in spreadsheet program.<br>
+6. New - Compare CSV - Show filenames of files being compared in DifferenceP/R files.<br>
+7. Fix - Compare CSV - where a Pers or Rel record had more fields in one export than in the other the program may fail when running the compare.<br>
+8. Fix - GEDCOM Export - Notes and Source have fixed errors with use of GEDCOM Tag CONT and CONC<br>
+9. Chg - GEDCOM Export - leading spaces in Notes or Source are not removed.<br>
+10. Fix - GEDCOM Import - Notes and Source have fixed errors with CONT and CONC and correctly applying new line<br>
+11. New - GEDCOM Import - Person and relations (Individual and Family) numbers will be retained, if new empty database and SOURCE is FZIP.<br>
+&nbsp&nbsp&nbsp Reassigning the same numbers can be used in CSV Compare to correctly compare the same records after GEDCOM Export/Import.<br>
+12. New - View - Change display of person and relationship numbers to add p and r<br>
+13. Fix - Main - Fix ViewName of Family View if that is initial View to be displayed.<br>
+14. New - Help - Documentation on recovering database from corruption.<br>
+</p>
+
+<P><B>Version 2.1.7 &nbsp&nbsp 18 Jan 2020 :-</B><br>
+1. New - View - Change to screen to display Place and Source together on one screen.<br>
+2. New - Main Screen - When program starts it will display the Hourglass or Family View depending on what was displayed when the program was closed.<br>
+</p>
+
+<P><B>Version 2.1.6 &nbsp&nbsp 29 Jul 2019 :-</B><br>
+1. Chg - Help - Updates to improve readability and content<br>
+2. New - CSV Export - Add the 3 Tag fields to CSV Export and CSV Compare. Add option to export the Tag Values.<br>
+3. Fix - CSV Export - Heading corrected for Relationship for Male and Female Relationship Numbers<br>
+4. Chg - About - Minor change to About screen to include URL of website.<br>
+</p>
+
+<P><B>Version 2.1.5 &nbsp&nbsp 3 Jul 2019 :-</B><br>
+1. New - FindList CSV Export - used to export the FindList as a CSV file to be read by a spreadsheet program such as Excel or Libre Office<br>
+&nbsp&nbsp&nbsp Invoked from FindList screen or Tools menu<br>
+2. Fix - Place report - Correction for displaying relationships - displayed incorrect Event literal for Female<br>
+3. Fix - Place searching and Place Report - Marriage or Divorce now only displayed for Male, Female if Male, Female was selected.<br>
+4. Fix - Place searching and Place report - If  'Use as Input' was selected then did not select Marriages or Divorces<br> 
+5. Fix - Find Person or Marriage - If second field used could not use 'between'<br>
+6. Fix - LDS Report - Print preview did not display background page image correctly<br>
+7. Fix/Chg - FindList - Right click on a person in a row will now display Edit screen for that person<br>
+8. Fix  - Edit - Next Person and Previous Person within Edit would only step through siblings. Corrected to step through FindList if Edit is invoked from FindList.<br>
+9. Chg - Tools Menu - Reorganise menu to improve<br>
+10. Chg - Help - Updating of Help to improve <br>
+</p>
+
+<P><B>Version 2.1.4 &nbsp&nbsp 22 Jun 2019 :-</B><br>
+1. Chg/Fix - Place searching and Place report - For relationships, now reports events for male and female rather than just one.<br>
+2. Fix - Place searching and Place report - Sorting now works correctly for Marriage and Divorce<br> 
+3. Chg - FindList - For Places, when selecting reverse place display the place in reverse order<br>
+4. Chg - FindList - Displays 'Summary' heading when summary<br>
+5. New - Place searching and Place report - New sort orders of Family Name (then Date) and Date (then Family Name)<br>
+6. Fix - Install - Program would fail if 'Launch Application' selected at time of installation and Fzip had not run before on PC. Run from Windows would work correctly.<br>
+7. Chg - Install - Installation file is renamed to include version number e.g. FzipFT_SetupV2.1.4.exe<br>
+</p>
+
+<P><B>Version 2.1.3 &nbsp&nbsp 22 May 2019 :-</B><br>
+1. Chg - Forms - Updating of forms to improve their readability.<br>
+</p>
+
+<P><B>Version 2.1.2 &nbsp&nbsp 14 May 2019 :-</B><br>
+1. New - CSV Compare - New function that compares output from two exports and reports differences i.e. shows changes - can be used to identify differences in versions of genealogy files. Accessed from Tools menu.<br>
+2. Fix  - CSV Export  - Export of Parent data incorrect where there were no parents.<br>
+3. New - CSV Export - Addition of Genealogy file and date and time to the output files.<br>
+4. New - Edit - Stop entry of carriage return and line feed in Place fields.<br>
+5. Fix - File Read - Program would lock up when opening genealogy file when last record on buffer boundary.<br>
+</p>
+
+<P><B>Version 2.1.1 &nbsp&nbsp 7 May 2019 :-</B><br>
+1. New - CSV Export - Now exports all notes.<br>
+2. New - Date Check Report - Option to write people to check to FindList now includes error messages.<br>
+3. Fix - Date Check Report - Check 12, 13 Person born after Father/Mother dead is corrected<br>
+4. Fix - Main - When changed to new person, the person was not highlighted correctly in Sibling display. (Problem introduced in v2.1).<br>
+5. Chg - Language - Updated Italian Version - Thank you Ercole Di Matteo.<br>
+</p>
+
+<P><B>Version 2.1 &nbsp&nbsp 30 April 2019 :-</B><br>
+1. New - FindList - Improve setting of column widths and resizing. Default to full screen, but remember sizing when look at Findlist again.<br>
+2. New - Main and FindList - Display Person Number and Reference for a Person in Person Summary<br>
+3. New - CSV Export - New function to provide export of genealogy data as CSV files. Accessed from Tools Menu.<br>
+4. New - Date Check Report - Additional check of; a child is born less than 9 months after a previous child.<br>
+5. Chg - Web - User created Template directory changed to be in Fzip data directory e.g. C:\ProgramData\Fzip\template<br>
+6. New - Main - New Family View Screen that shows 3 generations of people in a tabular format. Click on "<< >>" to swap between existing Hourglass View and Family View.<br>
+7. Fix - Main Screen - Remove comma when last name displayed first and first name is blank<br>
+</p>
+
+<P><B>Version 2.0.4 &nbsp&nbsp 19 April 2019 :-</B><br>
+1. Chg - Change where temporary and work files are stored. By default will be stored in C:\ProgramData\Fzip on Windows 10<br>
+&nbsp&nbsp&nbspIf the program is not run from the C:\Program Files (x86) directory then these files will be stored in the same directory as the program.<br>
+2. New - New version of FzipLang  - language translation program, to be used by language translators.<br>
+3. New - Added new Language menu option in Help menu<br>
+</p>
+
+<P><B>Version 2.0.3.1 &nbsp&nbsp  14 April 2019 :-</B><br>
+1. Chg - Language - Revised Dutch Translation for Version 2 - Thank you Peter Tameris<br>
+</p>
+
+<P><B>Version 2.0.3 &nbsp&nbsp 13 April 2019 :-</B><br>
+1. Chg - Easy Find and Find - search criteria to default to "Contains" rather than "Starts with" - to improve use of search<br>
+2. Chg - Main screen - FindList Next and Previous make person the focus rather than just update narrative of person<br>
+3. Chg - Main screen - If person selected in Sibling Area then show first spouse ancestors<br>
+4. Fix - Date Input - Program was ignoring date separator defined in Windows, always set it to '/'. <br>
+5. Chg - Help - Update of various topics<br>
+</p>
+
+<P><B>Version 2.0.2 &nbsp&nbsp  9 April 2019 :-</B><br>
+1. Chg - Main screen - Change highlighting to improve text visibility and navigation<br>
+2. Chg - Main screen, FindList - Change color of narrative text box to improve text visibility<br>
+3. Fix - Main screen, FindList - Narrative was truncated when large number of children<br>
+4. New - Main screen - Add Indi number for selected individual to improve identification of person<br>
+</p>
+
+<P><B>Version 2.0.1 &nbsp&nbsp  8 April 2019 :-</B><br>
+1. New - About screen - Information added identifying executable file<br>
+2. Fix - GEDCOM Import and Export - did not correctly input and output date qualifier ABT,EST etc in English<br>
+3. New - Option screen - Added parameter to control output of GEDCOM Dates in English or selected Language<br>
+4. Fix - Main screen - Did not completely clear main screen when File > New<br>
+5. Chg - Help - Added new Licence information to Help<br>
+6. Chg - Language - Revised Italian Translation for Version 2 - Thank you Ercole Di Matteo<br>
+</p>
+
+<P><B>Version 2.0 &nbsp&nbsp  28 March 2019 :-</B><br>
+Yes it has been a long time between changes!<br>
+1. New - Main screen - that is easier to use and shows 5 generations of people to give improved context - 3 generations of Ancestors<br>
+2. New - Main screen - Back and Forward buttons that work similarly to Internet browser back and forward<br>
+3. New - Main screen and FindList - Narrative summary added for selected person and for FindList has more information (e.g. age, age at marriage, place of marriage) and better formatting<br>
+4. New - Findlist - rewritten to be more friendly and useful - now displays place of birth, place of death and reference number.<br>
+5. New - Find, Select by Place - has option to reverse Place - this is also used by Place Report - useful for checking Place names<br>
+6. Fix - FindList - When editing from Findlist Place or Source selection the FindList display information did not display correctly<br>
+7. New - Report - ScreenPrint report for the main screen<br>
+8. Fix - Help - Now able to use HTML Help<br>
+9. Chg - Help - Updated Help<br>
+10. Chg - Limits - Number of people that can be processed increased to 3.27 million from 2 million<br>
+11. Chg - Add Child, Connect Child - Now require selection of relationship due to main screen change<br>
+12. Chg - Connect Spouse - The method of selecting Spouse changed<br>
+13. New - Add Spouse - Can now edit relationship details<br>
+14. New - Main screen - Heading includes filename being displayed and the last date and time of change<br>
+15. New - Shareware - Remove code for shareware restrictions<br>
+16. Chg - Web - Improve Web page generation to improve navigation<br>
+17. New - Place Report - Add information displayed when Level of Detail = 2, also uses Reverse Place in Find<br>
+18. New - Edit screen - Add highlight sex of person in blue or red to assist selecting correct sex<br>
+19. New - Edit screen - Add Child - Heading updated to included parents<br>
+20. New - Date Check Report - Additional check of 60 years difference between spouses<br>
+21. Chg - Edit Screen - improve formatting, add print button, remove bookmark buttons<br>
+22. New - GEDCOM Import - Now imports Unix GEDCOM files that only have Linefeed as end of record marker in addition to existing Windows files.<br>
+23. New - Privacy - Has more options for output for Web pages and GEDCOM export - improved Privacy with more options for output.<br>
+24. New - Privacy - Can be used on most Reports with same options as Web and GEDCOM export<br>
+25. New - Web - Pages for individuals can be combined into single files to reduce number of html files<br>
+26. Chg - Web - Changed the way the output directory is selected<br>
+27. New messages - see Customisation for more details
+<br>Note that while the program has been upgraded the same data structure is used as the original, so that both Version 1 program and Version 2 can be used on the same data file (provided there are less than 2 million people).<br>
+</p>
+<hr> <br>
+</body>
+</html>
